@@ -43,7 +43,7 @@
     		<version>2.20</version>
   			<configuration>
   				<suiteXMLFiles>
-  					<suiteXMLFile>/SeleniumEasyTestAutomation/testng.xml</suiteXMLFile>
+  					<suiteXMLFile>/FreeCRMTestAutomation/testng.xml</suiteXMLFile>
   				</suiteXMLFiles>
   				<argLine>
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
