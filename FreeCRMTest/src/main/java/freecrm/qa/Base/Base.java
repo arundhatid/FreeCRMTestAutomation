@@ -19,8 +19,8 @@ import freecrm.qa.Util.commonUtility;
 public class Base {
 
 	//declare public variables
-	public WebDriver driver;
-	public Properties prop;
+	public static WebDriver driver;
+	public static Properties prop;
 	public FileInputStream fis;
 	
 	

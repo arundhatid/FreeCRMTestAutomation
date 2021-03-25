@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="AutomationSuit" verbose="1" >  
+	<listeners>
+		<listener class-name="freecrm.qa.Util.Listeners.TestListeners"/>
+	</listeners>
+  <test name="Regression">
+    <classes>
+      <class name="freecrm.test.Tests.LoginTest"/>      
+    </classes>
+  </test>  
+</suite>
